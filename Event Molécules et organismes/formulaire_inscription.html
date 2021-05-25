@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>EventBrite2</title>
+     <!--Link for bootstrap-->
+     <link rel="stylesheet" href="styles/bootstrap.min.css" class="css">
+     <!--Custom stylesheet-->
+     <link rel="stylesheet" href="styles/style.css" class="css">
+     <!-- Font Awesome -->
+      <link rel="stylesheet" href="styles/fontawesome.min.css" class="css">
+  </head>
+
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">                        
+            <h2>S'inscrire !</h2>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3">
+              <form id="contact-form" class="form" action="#" method="POST" role="form">
+                  <div class="form-group">
+                      <label class="form-label" for="first-name">Votre prénom</label>
+                      <input type="text" class="form-control" id="first-name" name="first-name" placeholder="Your first name" tabindex="1" required>
+                  </div>                            
+                  <div class="form-group">
+                      <label class="form-label" for="last-name">Votre nom</label>
+                      <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Your last name" tabindex="2" required>
+                  </div>
+                  <div class="form-group">
+                      <label class="form-label" for="email">Votre email</label>
+                      <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="3" required>
+                  </div>                     
+                  <div class="form-group">
+                      <label class="form-label" for="description">Description</label>
+                      <textarea rows="5" cols="50" name="description" class="form-control" id="description" placeholder="Description..." tabindex="4" required></textarea>
+                  </div>
+                  <div class="form-group">
+                      <label class="form-label" for="password">Mot de passe</label>
+                      <input type="password" class="form-control" id="password" name="password" placeholder="Your password" tabindex="5" required>
+                  </div> 
+                  <div class="form-group">
+                      <label class="form-label" for="password">Confirmez le mot de passe</label>
+                      <input type="password" class="form-control" id="password" name="password" placeholder="Confirm your password" tabindex="6" required>
+                  </div> 
+                  <div class="text-center">
+                      <button type="submit" class="btn btn-start-order">S'inscrire</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+    </div>
+     <!-- Main content -->
+    <div class="container">
+      <div class="row mt-4">
+        <div class="col">
+          <small><a href="index.html">< Back to Menu</a></small>
+          <h1>Form page</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
